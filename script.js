@@ -10,8 +10,6 @@ function resultado (){
     textoResultado.innerHTML=''
 
 
-
-
     const peso = inputPeso.value;
     const altura = inputAltura.value;
 
@@ -37,8 +35,5 @@ function resultado (){
 
 }
 
-function resultadoImc ()
-
 button.addEventListener('click', resultado)
-
 
